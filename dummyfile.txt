@@ -1,0 +1,4 @@
+Takescreenshot ts=new Takescreenshot(driver);
+File f=ts.getScreenshotAs(OUTPUTTYPE.File);
+FileUtil.copyFile(f,new(""));
+
