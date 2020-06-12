@@ -2,3 +2,6 @@ Takescreenshot ts=new Takescreenshot(driver);
 File f=ts.getScreenshotAs(OUTPUTTYPE.File);
 FileUtil.copyFile(f,new(""));
 
+
+JAvascriptExecutor js=new JavascriptExecutor(driver);
+js.executeScript("documents.getElementByID(),value=""");
